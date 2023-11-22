@@ -1,3 +1,5 @@
+import { Button } from '../../components/Button';
+
 export function SignUp() {
   return (
     <div>
@@ -14,7 +16,7 @@ export function SignUp() {
           Senha:
           <input type="password" />
         </label>
-        <button>Cadastrar</button>
+        <Button />
       </form>
     </div>
   );

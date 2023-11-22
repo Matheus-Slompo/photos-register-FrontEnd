@@ -1,3 +1,6 @@
+import { Button } from '../../components/Button';
+import { HomeContainer } from './styles';
+
 export function Home() {
   /*const handleClickedButton = () => {
     event.preventDefault();
@@ -5,13 +8,13 @@ export function Home() {
   };*/
 
   return (
-    <div>
+    <HomeContainer>
       <h1>Adicione sua foto abaixo</h1>
       <form>
         <input type="file" />
         <button /*onClick={handleClickedButton}*/>Enviar</button>
       </form>
-      <button>Visualizar fotos</button>
-    </div>
+      <Button />
+    </HomeContainer>
   );
 }
