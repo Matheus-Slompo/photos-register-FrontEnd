@@ -1,5 +1,5 @@
 import { ButtonContainer } from './styles';
 
-export function Button() {
-  return <ButtonContainer>Cadastrar</ButtonContainer>;
+export function Button(props) {
+  return <ButtonContainer>{props.title}</ButtonContainer>;
 }

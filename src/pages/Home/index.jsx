@@ -1,4 +1,5 @@
 import { Button } from '../../components/Button';
+import { Input } from '../../components/Input';
 import { HomeContainer } from './styles';
 
 export function Home() {
@@ -11,7 +12,7 @@ export function Home() {
     <HomeContainer>
       <h1>Adicione sua foto abaixo</h1>
       <form>
-        <input type="file" />
+        <Input type="file" />
         <button /*onClick={handleClickedButton}*/>Enviar</button>
       </form>
       <Button />

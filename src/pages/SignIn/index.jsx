@@ -1,19 +1,19 @@
+import { Input } from '../../components/Input';
+import { Button } from '../../components/Button';
+
 export function SignIn() {
   return (
     <div>
       <form>
-        <label>
-          E-mail:
-          <input type="text" />
-        </label>
-        <label>
-          Senha:
-          <input type="password" />
-        </label>
-        <button>Entrar</button>
+        <Input label="E-mail:" type="text" />
+
+        <Input label="Password:" type="password" />
+
+        <Button title="Sign in" />
       </form>
-      <p>Deseja fazer cadastro?</p>
-      <button>Cadastre-se</button>
+      <p>
+        Deseja fazer <a href="/SignUp">cadastro</a>?
+      </p>
     </div>
   );
 }
