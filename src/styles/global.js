@@ -8,6 +8,11 @@ export const GlobalStyles = createGlobalStyle`
     --webkit-font-smoothing: antialiased;
   }
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
     font-family: 'Oswald';
   }
 `;
